@@ -1,0 +1,351 @@
+*{
+  margin: 0px;
+  font-family: sans-serif;
+  /* font-size: 15px; */
+  text-align: justify;
+}
+
+main{
+  height:1350px;
+  width:900px;
+  margin: 5px auto;
+  border: 5px solid;
+  background-color:rgb(248, 245, 245) ;
+  /* background-color: white; */
+}
+
+header{
+  height: 270px;
+  width: inherit;
+  background-color: rgb(109, 108, 108);
+  position: relative;
+}
+
+.greyline{
+  height: 40px;
+  width: inherit;
+  background-color: rgb(230, 228, 228);
+  position: absolute;
+  bottom: 30px;
+}
+
+.name{
+  height: 80px;
+  width: 400px;
+  background-color: rgb(255, 196, 0);
+  position: absolute;
+  bottom:10px ;
+  left: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  z-index: 1;
+}
+
+.name p{
+  font-size:50px;
+  font-family: sans-serif;
+}
+
+.picture{
+  height: 220px;
+  width: 220px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 340px;
+  top: 10px;
+}
+
+.picture img{
+  height: 190px;
+  width: 190px;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.picture .border{
+  width: 215px;
+  height: 10px;
+  background-color:inherit;
+  position: absolute;
+}
+
+.border .circle:first-of-type{
+  height: inherit;
+  width: 10px;
+  border-radius: 50%;
+  float: left;
+  background-color: rgb(255, 196, 0);
+}
+
+.border .circle:last-of-type{
+  height: inherit;
+  width: 10px;
+  border-radius: 50%;
+  float: right;
+  background-color: rgb(255, 196, 0)
+}
+
+.picture .border:nth-of-type(2){
+  transform: rotate(10deg);
+}
+
+.picture .border:nth-of-type(3){
+  transform: rotate(20deg);
+}
+.picture .border:nth-of-type(4){
+  transform: rotate(30deg);
+}
+.picture .border:nth-of-type(5){
+  transform: rotate(40deg);
+}
+.picture .border:nth-of-type(6){
+  transform: rotate(50deg);
+}
+.picture .border:nth-of-type(7){
+  transform: rotate(60deg);
+}
+.picture .border:nth-of-type(8){
+  transform: rotate(70deg);
+}
+.picture .border:nth-of-type(9){
+  transform: rotate(80deg);
+}
+.picture .border:nth-of-type(10){
+  transform: rotate(90deg);
+}
+.picture .border:nth-of-type(11){
+  transform: rotate(100deg);
+}
+.picture .border:nth-of-type(12){
+  transform: rotate(110deg);
+}
+.picture .border:nth-of-type(13){
+  transform: rotate(120deg);
+}
+.picture .border:nth-of-type(14){
+  transform: rotate(130deg);
+}
+.picture .border:nth-of-type(15){
+  transform: rotate(140deg);
+}
+.picture .border:nth-of-type(16){
+  transform: rotate(150deg);
+}
+.picture .border:nth-of-type(17){
+  transform: rotate(160deg);
+}
+.picture .border:last-of-type{
+  transform: rotate(170deg);
+}
+
+.address{
+  padding-top: 10px;
+  padding-bottom: 5px;
+  border-bottom: 2px solid rgb(175, 175, 175);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: rgb(248, 245, 245); */
+}
+
+.address span{
+  border-right: 1px solid;
+  padding-right: 5px;
+}
+
+.address span:last-of-type{
+  border-right: none;
+}
+
+.resume{
+  width: 100%;
+  display: flex;
+  /* background-color: rgb(248, 245, 245); */
+}
+
+.set{
+  margin: 20px 0;
+  margin-left: 40px;
+  /* margin-right: auto; */
+  border-right: 2px solid rgb(175, 175, 175);
+  width: 50%;
+}
+
+.set:last-of-type{
+  border: none;
+  /* margin-right: 30px; */
+}
+
+.category{
+  display: flex;
+  align-items: center;
+}
+
+.category p{
+  font-size: 30px;
+  color: grey;
+  margin: 5px;
+}
+
+.content{
+  margin: 10px;
+  margin-bottom: 20px;
+  margin-right: 40px;
+  width: inherit;
+  overflow: hidden;
+}
+
+
+.logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  background-color: black;
+  border-radius: 50%;
+  margin: 5px 10px;
+  position: relative;
+}
+
+.logo i{
+  color: rgb(255, 196, 0);
+  background-color: black;
+  position: absolute;
+}
+
+.logo-border{
+  width: 62px;
+  height: 5px;
+  position: absolute;
+}
+
+.logo-border .circle:first-of-type{
+  height: inherit;
+  width: 5px;
+  border-radius: 50%;
+  float: left;
+  background-color: rgb(255, 196, 0);
+}
+
+.logo-border .circle:last-of-type{
+  height: inherit;
+  width: 5px;
+  border-radius: 50%;
+  float: right;
+  background-color: rgb(255, 196, 0)
+}
+
+.logo-border:nth-of-type(2){
+  transform: rotate(30deg);
+}
+
+.logo-border:nth-of-type(3){
+  transform: rotate(60deg);
+}
+
+.logo-border:nth-of-type(4){
+  transform: rotate(90deg);
+}
+
+.logo-border:nth-of-type(5){
+  transform: rotate(120deg);
+}
+
+.logo-border:last-of-type{
+  transform: rotate(150deg);
+}
+
+.content table{
+  width: 100%;
+}
+
+.content table tr td:first-of-type{
+  width: 50%;
+  text-align: start;
+  vertical-align: top;
+  padding: 0px;
+}
+
+.content table tr td:last-of-type{
+  width: 50%;
+  text-align: end;
+  padding: 0px;
+}
+
+.content table tr td:last-of-type input{
+  width: 180px;
+  height: 16px; 
+  pointer-events: none;
+}
+
+.skillset p{
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.workexp .content p:first-of-type, .education .content p:first-of-type{
+  float: left;
+  font-weight: bold;
+  width: 50%;
+  text-align: left;
+}
+
+.workexp .content p:nth-of-type(2),.education .content p:nth-of-type(2){
+  float: right;
+}
+
+.workexp .content p:nth-of-type(3), .education .content p:nth-of-type(3){
+  clear: both;
+  margin-bottom: 10px;
+}
+
+.education .content p:nth-of-type(4){
+  margin-bottom: 10px;
+}
+
+.education .content p:nth-of-type(5){
+  float: left;
+  font-weight: bold;
+  width: 50%;
+  text-align: left;
+  margin-top: 10px;
+}
+
+.education .content p:nth-of-type(6){
+  float: right;
+  margin-top: 10px;
+}
+
+.education .content p:last-of-type{
+  clear: both;
+  margin-bottom: 10px;
+}
+
+input[type=range]::-moz-range-track {
+  width: 180px;
+  height: 8px;
+  background-color: rgb(226, 225, 225);
+  border: none;
+  border-radius: 3px;
+  box-shadow: 1px 1px 1px 5px rgb(248, 245, 245)  ;
+}
+
+input[type=range]::-moz-range-thumb {
+  border: 1px solid rgb(197, 195, 195);
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  background-color: rgb(248, 245, 245);
+}
+
+input[type=range]::-moz-range-progress{
+  background-image: linear-gradient(to right,orange,rgb(255, 238, 0));
+  height: 8px;
+}
